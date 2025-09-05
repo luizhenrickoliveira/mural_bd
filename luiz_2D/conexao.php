@@ -2,7 +2,7 @@
 $host    = "localhost";
 $usuario = "root";
 $senha   = "";
-$banco   = "mural"; // mesmo nome que você criou no phpMyAdmin
+$banco   = "mural";
 
 $conexao = mysqli_connect($host, $usuario, $senha, $banco);
 
