@@ -1,0 +1,93 @@
+/* Layout geral */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f0f0f0, #d9e4f5);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container central */
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Cabeçalho */
+header {
+    background: #003366;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Formulários */
+.formulario {
+    background: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.formulario label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Botão */
+.btn {
+    background: #003366;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #0055aa;
+}
+
+/* Mensagens */
+.recados h2 {
+    margin-bottom: 15px;
+    color: #003366;
+}
+
+.card {
+    background: #fdfdfd;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.card a {
+    color: #003366;
+    text-decoration: none;
+    font-size: 14px;
+}
+.card a:hover {
+    text-decoration: underline;
+}
